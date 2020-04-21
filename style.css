@@ -13,9 +13,9 @@ header{
 }
 h1{
     border-bottom: solid black 1px;
-    margin: auto;
     margin-top: 15px;
     padding: 20px;
+    width: 60%;
 }
 footer{
     margin: auto;
@@ -29,8 +29,8 @@ footer{
 }
 #me-pic{
     float: right;
-    height: 330px;
+    width: 25%;
     border-radius: 25px;
     margin-right: 100px;
-    margin-top: -100px;
+    margin-top: -150px;
 }
