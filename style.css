@@ -11,11 +11,16 @@ header{
     color: white;
     width: 100%;
 }
+#grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 300px;
+}
 h1{
     border-bottom: solid black 1px;
     margin-top: 15px;
     padding: 20px;
-    width: 60%;
+    width: 40%;
 }
 footer{
     margin: auto;
@@ -28,9 +33,11 @@ footer{
     padding: 20px;
 }
 #me-pic{
-    width: 25%;
-    border-radius: 25px;
-    float: right;
-    margin-top: -200px;
-    margin-right: 200px;
+   height: 400px;
+   width: 350px;
+   margin-top: -100px;
+   border-radius: 25px;
+}
+#output{
+    color: yellow;
 }
