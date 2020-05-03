@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+h2{
+    background-color: rgb(241,241,241);
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    max-width: 100%;
+    grid-gap: 20px;
+    height: 700px;
+    margin-left: 70px;
+}
+#box-3{
+    border: solid grey;
+    width: 300px;
+}
+#box-2{
+    border: solid grey;
+    width: 300px;
+}
+#box-1{
+    border: solid grey;
+    width: 300px;
+}
+#wiki{
+    border-top: grey solid;
+    padding: 10px;
+}
