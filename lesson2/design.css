@@ -29,3 +29,9 @@ h2{
     border-top: grey solid;
     padding: 10px;
 }
+img{
+    width: 300px;
+}
+.info{
+    border-top: grey solid;
+}
