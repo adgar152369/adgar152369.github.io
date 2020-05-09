@@ -1,5 +1,9 @@
 @media screen and (max-width: 55em){
-    html,body{
+    html{
+        background-color: rgb(200, 226, 148);
+
+    }
+    body{
         margin: 0;
         padding: 0;
         font-family: 'Comfortaa';
@@ -24,9 +28,6 @@
     a:link{
         color: green;
     }
-    a:visited{
-        color: olivedrab;
-    }
     a:hover{
         color: palegreen;
     }
@@ -40,5 +41,11 @@
     }
     nav li{
         padding-bottom: 5px;
+    }
+    #purpose{
+        background-color: rgb(241,241,241);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px;
     }
 }
