@@ -50,10 +50,10 @@
         color:olivedrab;
     }
     a:visited{
-        color: olivedrab;
+        color: rgb(107, 142, 35);
     }
     a:hover{
-        color: palegreen;
+        color: rgb(152, 251, 152);
     }
     .info{
         padding: 15px;
