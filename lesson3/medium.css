@@ -1,0 +1,56 @@
+@media only screen and (min-width: 55em) and (max-width: 63em){
+    body{
+        margin: 0;
+        font-family: 'Comfortaa';
+        font-size: 1.0em;
+    }
+    header{
+        background: darkseagreen;
+        padding: 10px;
+    }
+    
+    header::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    header img{
+        height: 100px;
+        padding: 10px;
+    }
+    #title{
+        text-align: center;
+        margin-top: -30px;
+        font-size: 50px;
+    }
+    header img, h3{
+        display: inline-block;
+    }
+    nav{
+        text-align: center;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+        margin-left: 40px;
+        padding-bottom: 15px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:link{
+        color: green;
+    }
+    a:visited{
+        color: olivedrab;
+    }
+    a:hover{
+        color: palegreen;
+    }
+}
+
