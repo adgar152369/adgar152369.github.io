@@ -55,4 +55,10 @@
     .info{
         padding: 15px;
     }
+    #purpose{
+        background-color: rgb(241,241,241);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px;
+    }
 }
