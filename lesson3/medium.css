@@ -26,6 +26,12 @@
         margin-top: -30px;
         font-size: 50px;
     }
+    #info{
+        background-color: rgb(241,241,241);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px 60px 0 60px;
+    }
     header img, h3{
         display: inline-block;
     }
@@ -47,10 +53,16 @@
         text-decoration: none;
     }
     a:link{
-        color: green;
+        color:rgb(107, 142, 35);
+    }
+    a:visited{
+        color: rgb(107, 142, 35);
     }
     a:hover{
         color: palegreen;
+    }
+    div img{
+        border-radius: 15px;
     }
     #purpose{
         background-color: rgb(241,241,241);

@@ -26,7 +26,10 @@
         float: right;
     }
     a:link{
-        color: green;
+        color:rgb(107, 142, 35);
+    }
+    a:visited{
+        color: rgb(107, 142, 35);
     }
     a:hover{
         color: palegreen;
@@ -42,10 +45,20 @@
     nav li{
         padding-bottom: 5px;
     }
+    div img{
+        border-radius: 15px;
+        max-width: 75%;
+    }
     #purpose{
         background-color: rgb(241,241,241);
         border-radius: 15px;
         padding: 15px;
         margin: 20px;
+    }
+    #info{
+        background-color: rgb(241,241,241);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px 60px 0 60px;
     }
 }
