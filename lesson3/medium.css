@@ -70,5 +70,17 @@
         padding: 10px;
         margin: 15px;
     }
+    th, td{
+        border: rgb(0, 0, 0) 1px solid;
+        padding: 10px;
+    }
+    table{
+        margin: 15px;
+    }
+    footer{
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
 }
 

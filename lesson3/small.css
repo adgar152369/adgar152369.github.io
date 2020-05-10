@@ -61,4 +61,16 @@
         padding: 15px;
         margin: 20px 60px 0 60px;
     }
+    th, td{
+        border: rgb(0, 0, 0) 1px solid;
+        padding: 10px;
+    }
+    table{
+        margin: 10px;
+    }
+    footer{
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
 }

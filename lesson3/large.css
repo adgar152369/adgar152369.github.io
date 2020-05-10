@@ -77,4 +77,16 @@
     .scenarios{
         line-height: 25px;
     }
+    th, td{
+        border: rgb(0, 0, 0) 1px solid;
+        padding: 10px;
+    }
+    table{
+        margin: 20px;
+    }
+    footer{
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
 }
