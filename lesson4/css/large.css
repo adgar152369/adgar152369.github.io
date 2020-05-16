@@ -11,6 +11,10 @@
         background: darkseagreen;
         padding: 15px;
     }
+    header h3{
+        text-align: center;
+        margin-top: -20px;
+    }
     
     header::after{
         content: '';
