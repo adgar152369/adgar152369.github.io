@@ -3,5 +3,5 @@ function toggle_menu(){
 }
 
 var today = new Date();
-var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var date = today.getFullYear()+(today.getMonth()+1)+today.getDate();
 document.getElementById('today-date').innerHTML = date;
