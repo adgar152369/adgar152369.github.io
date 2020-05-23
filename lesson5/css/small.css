@@ -99,4 +99,66 @@
         padding: 10px;
         border: black solid 1px;
     }
+    main img{
+        height: 350px;
+        border: solid black 1px;
+    }
+    #summary-box{
+        position: absolute;
+        right: 350px;
+        top: 350px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 25px;
+    }
+    /*********************** Forecast display section ********************************************/
+
+    section #forecast-box{
+        width: 450px;
+        text-align: center;
+    }
+    #forecast-box{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        padding: 20px;
+        margin: auto;
+    }
+    #forecast-box h3{
+        padding: 15px;
+    }
+    .weather-images img{
+        height: 50px;
+    }
+
+    /*********************** Article display section ********************************************/
+
+    #article{
+        background-color: rgb(241,241,241);
+        padding: 25px;
+        margin: 20px;
+        margin-top: auto;
+        border-radius: 25px;
+    }
+    #store-image{
+        height: 200px;
+        float: left;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    /*********************** Maps display section ********************************************/
+
+    #map{
+        display: flex;
+        padding: 15px;
+        margin: auto;
+    }
+    #map-pic{
+        margin-top: 0;
+        margin: auto;
+        display: flex;
+    }
+    #google-maps{
+        height: 400px;
+        padding: 15px;
+    }
 }
