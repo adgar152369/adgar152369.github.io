@@ -1,0 +1,103 @@
+@media only screen and (min-width: 35em) and (max-width: 63em){
+    html{
+        background-color: rgb(200, 226, 148);
+    }
+    body{
+        margin: 0;
+        font-family: 'Comfortaa';
+        font-size: 1.0em;
+    }
+    header{
+        background: darkseagreen;
+        padding: 10px;
+    }
+    
+    header::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    header img{
+        height: 100px;
+        padding: 30px;
+    }
+    #title{
+        text-align: center;
+        margin-top: -30px;
+        font-size: 50px;
+    }
+    #info{
+        background-color: rgb(241,241,241);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px 60px 0 60px;
+    }
+    header img, h3{
+        display: inline-block;
+    }
+    nav{
+        text-align: center;
+        padding-top: 30px;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+        margin-left: 40px;
+        padding-bottom: 15px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:link{
+        color:rgb(107, 142, 35);
+    }
+    a:visited{
+        color: rgb(107, 142, 35);
+    }
+    a:hover{
+        color: palegreen;
+    }
+    div img{
+        border-radius: 15px;
+    }
+    #purpose{
+        background-color: rgb(241,241,241);
+        border-radius: 15px;
+        padding: 10px;
+        margin: 15px;
+    }
+    th, td{
+        border: rgb(0, 0, 0) 1px solid;
+        padding: 10px;
+    }
+    table{
+        margin: 15px;
+    }
+    footer{
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    .main-info{
+        text-align: center;
+    }
+    main h3{
+        padding: 15px;
+        border: solid black 1px;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+        background-color: rgb(241,241,241);
+    }
+    #hamburger-button{
+        display: none;
+    }
+}
+
+
