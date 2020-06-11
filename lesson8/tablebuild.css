@@ -27,6 +27,10 @@ tfoot td{
 th, td{
     border: solid 2px rgb(211, 207, 207);
 }
+#random{
+    background-color: #628ca6;
+    color: white;
+}
 tr:nth-child(even) {
     background-color: #e7f0ed;
 }
