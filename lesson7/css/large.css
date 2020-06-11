@@ -185,8 +185,8 @@
         width: 100%;
         margin: auto;
     }
-    .hover:hover{
-        box-shadow: 0 0 30px #333;
+    img .hover:hover {
+        box-shadow: 0 0 20px;
     }
   
 }
