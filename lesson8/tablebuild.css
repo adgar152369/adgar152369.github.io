@@ -1,12 +1,14 @@
 html{
     font-family: 'Ubuntu', sans-serif;
 }
+table{
+    box-shadow: 5px 5px 15px rgb(88, 88, 90);
+}
 table, th ,td{
     text-align: center;
     border-collapse: collapse;
     border: solid 1px black;
     padding: 10px;
-    box-shadow: 5px 5px 15px rgb(88, 88, 90);
 }
 thead th{
     background-color: #7fb9c2;
