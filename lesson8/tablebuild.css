@@ -4,16 +4,16 @@ html{
 table{
     box-shadow: 5px 5px 15px rgb(88, 88, 90);
 }
-table, th ,td{
+table, th , td{
     text-align: center;
     border-collapse: collapse;
-    border: solid 1px black;
+    border: solid 2px rgb(211, 207, 207);
     padding: 10px;
 }
 thead th{
     background-color: #7fb9c2;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
 }
 tbody th{
     background-color: #628ca6;
@@ -21,9 +21,11 @@ tbody th{
 }
 tfoot td{
     background-color: #7fb9c2;
+    font-size: 10px;
+    font-weight: 700;
 }
 th, td{
-    border: solid 1px black;
+    border: solid 2px rgb(211, 207, 207);
 }
 tr:nth-child(even) {
     background-color: #e7f0ed;
