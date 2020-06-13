@@ -1,0 +1,112 @@
+@media only screen and (min-width: 800px){
+    html{
+        background-color: rgb(200, 226, 148);
+    }
+    body{
+        margin: 0;
+        font-family: 'Comfortaa';
+        font-size: 1.0em;
+    }
+    header{
+        background: darkseagreen;
+        padding: 15px;
+    }
+    header h3{
+        text-align: center;
+        margin-top: -20px;
+    }
+    
+    header::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    #title{
+        text-align: center;
+        margin-top: -80px;
+        font-size: 50px;
+    }
+    header img{
+        height: 150px;
+    }
+    header img{
+        display: inline-block;
+    }
+    nav{
+        text-align: center;
+        padding-top: 50px;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+        margin-left: 40px;
+        padding-bottom: 15px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:link{
+        color:rgb(107, 142, 35);
+    }
+    a:visited{
+        color: rgb(107, 142, 35);
+    }
+    a:hover{
+        color: rgb(152, 251, 152);
+    }
+    #hamburger-button{
+        display: none;
+    }
+    
+    .container {
+        max-width: 450px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    fieldset {
+        border: solid black 1px;
+        margin: auto;
+        min-width: 100%;
+        padding: 20px;
+        width: 400px;
+    }
+    
+    label {
+        font-size: 1rem;
+    }
+    legend{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    form label.top input,
+    form label.top select,
+    form label.top textarea {
+        display: block;
+        font-size: 1rem;
+        border: solid 1px #999;
+        border-radius: 4px;
+        padding: 10px;
+        color: #555;
+        width: 400px;
+        max-width: 400px;
+        background-color: white;
+    }
+    #submit-info{
+        padding: 15px;
+        background-color: rgb(241, 241, 241);
+        border-radius: 15px;
+    }
+    #message{
+        margin: auto;
+        text-align: center;
+    }
+    
+}
