@@ -104,13 +104,14 @@
         height: 350px;
         border: solid black 1px;
     }
-    #summary-box{
-        position: absolute;
-        right: 350px;
-        top: 350px;
-        background-color: rgb(255, 255, 255);
-        padding: 10px;
+    .cards{
+        margin: 50px;
         border-radius: 25px;
+        padding: 15px;
+        text-align: center;
+        background-color: rgb(241,241,241);
+
     }
+    
 
 }
