@@ -78,15 +78,6 @@
     .main-info{
         text-align: center;
     }
-    main h3{
-        padding: 15px;
-        border: solid black 1px;
-        width: 50%;
-        text-align: center;
-        margin: auto;
-        margin-top: 15px;
-        background-color: rgb(241,241,241);
-    }
     .hide{
         display: none;
     }
@@ -99,10 +90,6 @@
         background-color: rgb(241,241,241);
         padding: 10px;
         border: black solid 1px;
-    }
-    main img{
-        height: 350px;
-        border: solid black 1px;
     }
     .cards{
         margin: 50px;
