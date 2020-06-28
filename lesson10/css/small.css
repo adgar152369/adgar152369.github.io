@@ -1,0 +1,117 @@
+@media screen and (max-width: 35em){
+    html{
+        background-color: rgb(200, 226, 148);
+
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Comfortaa';
+        font-size: 1.0em;
+    }
+    header{
+        background: darkseagreen;
+        margin-top: -14px;
+        padding: 10px;
+    }
+    
+    header::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    header img{
+        height: 120px;
+        padding: 10px;
+        float: right;
+    }
+    a:link{
+        color:rgb(107, 142, 35);
+    }
+    a:visited{
+        color: rgb(107, 142, 35);
+    }
+    a:hover{
+        color: palegreen;
+    }
+    a{
+        text-decoration: none;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li{
+        padding-bottom: 5px;
+    }
+    div img{
+        border-radius: 15px;
+        max-width: 75%;
+    }
+    #purpose{
+        background-color: rgb(241,241,241);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px;
+    }
+    #info{
+        background-color: rgb(241,241,241);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px 60px 0 60px;
+    }
+    th, td{
+        border: rgb(0, 0, 0) 1px solid;
+        padding: 10px;
+    }
+    table{
+        margin: 10px;
+    }
+    footer{
+        border-top: dotted black 5px;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        line-height: 25px;
+    }
+    .main-info{
+        text-align: center;
+    }
+    main h3{
+        padding: 15px;
+        border: solid black 1px;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+        background-color: rgb(241,241,241);
+    }
+    .hide{
+        display: none;
+    }
+    #hamburger-button{
+        border: none;
+        background-color: transparent;
+        font-size: 25px;
+    }
+    .menu-items{
+        background-color: rgb(241,241,241);
+        padding: 10px;
+        border: black solid 1px;
+    }
+    main img{
+        height: 350px;
+        border: solid black 1px;
+    }
+    #summary-box{
+        position: absolute;
+        right: 350px;
+        top: 550px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 25px;
+    }
+
+}
+

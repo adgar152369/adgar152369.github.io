@@ -1,0 +1,176 @@
+@media only screen and (min-width: 63em){
+    html{
+        background-color: rgb(200, 226, 148);
+    }
+    body{
+        margin: 0;
+        font-family: 'Comfortaa';
+        font-size: 1.0em;
+    }
+    header{
+        background: darkseagreen;
+        padding: 15px;
+    }
+    header h3{
+        text-align: center;
+        margin-top: -20px;
+    }
+    
+    header::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    #title{
+        text-align: center;
+        margin-top: -80px;
+        font-size: 50px;
+    }
+    header img{
+        height: 150px;
+    }
+    header img{
+        display: inline-block;
+    }
+    nav{
+        text-align: center;
+        padding-top: 50px;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+        margin-left: 40px;
+        padding-bottom: 15px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:link{
+        color:rgb(107, 142, 35);
+    }
+    a:visited{
+        color: rgb(107, 142, 35);
+    }
+    a:hover{
+        color: rgb(152, 251, 152);
+    }
+    .info{
+        padding: 15px;
+    }
+    #info{
+        background-color: rgb(241,241,241);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px 60px 0 60px;
+    }
+    div p{
+        line-height: 35px;
+    }
+    div img{
+        border-radius: 15px;
+    }
+    .persona{
+        line-height: 25px;
+        width: 500px;
+    }
+    .scenarios{
+        line-height: 25px;
+    }
+    th, td{
+        border: rgb(0, 0, 0) 1px solid;
+        padding: 10px;
+    }
+    table{
+        margin: 20px;
+    }
+    footer{
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    .main-info{
+        text-align: center;
+    }
+    main img{
+        height: 900px;
+        border: solid black 1px;
+    }
+    main h3{
+        padding: 15px;
+        border: solid black 1px;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+        background-color: rgb(241,241,241);
+    }
+    #hamburger-button{
+        display: none;
+    }
+    #summary-box{
+        position: absolute;
+        right: 900px;
+        top: 400px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 25px;
+    }
+
+    /*********************** Forecast display section ********************************************/
+
+    section #forecast-box{
+        width: 800px;
+        text-align: center;
+    }
+    #forecast-box{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        padding: 20px;
+        margin: auto;
+    }
+    #forecast-box h3{
+        padding: 15px;
+    }
+    .weather-images img{
+        height: 50px;
+    }
+
+    /*********************** Article display section ********************************************/
+
+    #article{
+        background-color: rgb(241,241,241);
+        padding: 25px;
+        margin: 200px;
+        margin-top: auto;
+        border-radius: 25px;
+    }
+    #store-image{
+        height: 200px;
+        float: left;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    /*********************** Maps display section ********************************************/
+
+    #map{
+        display: flex;
+        padding: 15px;
+        margin: auto;
+    }
+    #map-pic{
+        margin-top: 0;
+        margin: auto;
+        display: flex;
+    }
+    #google-maps{
+        height: 400px;
+        padding: 15px;
+    }
+  
+}
