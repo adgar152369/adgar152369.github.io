@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right Now Weather</title>
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img src="https://i.ibb.co/ZKwqz9j/Logo-Makr-6edb-Op.png" alt="logo">
+        <h1 id="title">Right Now Weather</h1>
+        <h3>Right here. Right now.</h3>
+        <nav>
+            <button onclick="toggle_menu()" id="hamburger-button">&#9776;</button>
+            <ul id="navigation" class="hide">
+                <li class="menu-items"><a href="/lesson9/home.html">Home</a></li>
+                <li class="menu-items"><a href="/lesson6/preston-6.html">Preston</a></li>
+                <li class="menu-items"><a href="/lesson11/sodasprings.html">Soda Springs</li>
+                <li class="menu-items"><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+                <li class="menu-items"><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+                <li class="menu-items"><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+     
+      <main class="sodasprings-main">
+        <h2>Soda Springs Idaho</h2>
+        <div id="hero">
+          <div id="hero-content">
+            <h3>Weather Summary</h3>
+            <hr />
+            <table id="weatherSummary">
+              <tr>
+                <td class="align-right">Currently:</td>
+                <td><span id="currently"></span></td>
+              </tr>
+              <tr>
+                <td class="align-right">Temperature:</td>
+                <td><span id="temp"></span>&#176;F</td>
+              </tr>
+              <tr>
+                <td class="align-right">Wind Speed:</td>
+                <td><span id="windSpeed"></span> mph</td>
+              </tr>
+              <tr>
+                <td class="align-right">Wind Chill:</td>
+                <td><span id="windChill"></span></td>
+              </tr>
+              <tr>
+                <td class="align-right">Humidity:</td>
+                <td><span id="humidity"></span>%</td>
+              </tr>
+            </table>
+          </div>
+          <div id="hero-image">
+            <img src="images/sodasprings.jpg">
+          </div>
+        </div>
+        <section id="forecast">
+        <div id="forecast-box">
+            <h3>Mon</h3>
+            <h3>Tue</h3>
+            <h3>Wed</h3>
+            <h3>Thur</h3>
+            <h3>Fri</h3>
+            <h3>Sat</h3>
+            <div class="weather-images">
+                <img src="/lesson5/images/cloudy.png">
+                    <p>65</p>
+            </div>
+                <div class="weather-images">
+                    <img src="/lesson5/images/sunny.png">
+                        <p>75</p></div>
+                <div class="weather-images">
+                    <img src="/lesson5/images/partly_cloudy.png">
+                        <p>71</p></div>
+                <div class="weather-images">
+                    <img src="/lesson5/images/rainy.png">
+                        <p>65</p></div>
+                <div class="weather-images">
+                    <img src="/lesson5/images/cloudy.png">
+                        <p>68</p></div>
+                <div class="weather-images">
+                    <img src="/lesson5/images/cloudy.png">
+                        <p>61</p></div>
+        </div>
+    </section>
+    <article id="article">
+        <h1>Want to be a catfish hunter? Idaho provides ample opportunity.
+        </h1>
+        <p>It’s no secret Idaho is a great place to fish. Blue-ribbon trout streams and quality bass fisheries are plentiful. Anglers from far and wide visit the Gem State to tangle with Chinook salmon.</p>
+    </article>
+    <div id="weather-events"></div>
+
+    <footer>
+        <div>
+          &copy;
+          <span id="current-year">
+          </span>
+        </div>
+        <div class="date-updated">
+          <span id="current-date">
+          </span>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/sodasprings.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

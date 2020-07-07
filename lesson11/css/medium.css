@@ -79,6 +79,7 @@
         margin: 15px;
     }
     footer{
+        border-top: dotted black 5px;
         margin: auto;
         text-align: center;
         padding: 10px;
@@ -98,6 +99,39 @@
     #hamburger-button{
         display: none;
     }
+    main img{
+        height: 500px;
+        border: solid black 1px;
+    }
+    #summary-box{
+        position: absolute;
+        right: 450px;
+        top: 450px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 25px;
+    }
+    /*********************** Forecast display section ********************************************/
+
+    section #forecast-box{
+        width: 500px;
+        text-align: center;
+    }
+    #forecast-box{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        padding: 20px;
+        margin: auto;
+    }
+    #forecast-box h3{
+        padding: 15px;
+    }
+    .weather-images img{
+        height: 50px;
+    }
+
+    /*********************** Article display section ********************************************/
+
 }
 
 

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 63em){
+@media only screen and (min-width: 800px){
     html{
         background-color: rgb(200, 226, 148);
     }
@@ -60,53 +60,55 @@
     a:hover{
         color: rgb(152, 251, 152);
     }
-    .info{
-        padding: 15px;
-    }
-    #info{
-        background-color: rgb(241,241,241);
-        border-radius: 15px;
-        padding: 15px;
-        margin: 20px 60px 0 60px;
-    }
-    div p{
-        line-height: 35px;
-    }
-    div img{
-        border-radius: 15px;
-    }
-    .persona{
-        line-height: 25px;
-        width: 500px;
-    }
-    .scenarios{
-        line-height: 25px;
-    }
-    th, td{
-        border: rgb(0, 0, 0) 1px solid;
-        padding: 10px;
-    }
-    table{
-        margin: 20px;
-    }
-    footer{
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-    }
-    .main-info{
-        text-align: center;
-    }
-    main h3{
-        padding: 15px;
-        border: solid black 1px;
-        width: 50%;
-        text-align: center;
-        margin: auto;
-        margin-top: 15px;
-        background-color: rgb(241,241,241);
-    }
     #hamburger-button{
         display: none;
     }
+    
+    .container {
+        max-width: 450px;
+        width: 100%;
+        margin: auto;
+    }
+    #forecast{
+        border-bottom: dotted black;
+    }
+    
+    #forecast-box{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        text-align: center;
+        width: 500px;
+        margin: auto;
+    }
+    .weather-images > img{
+        height: 50px;
+    }
+    .weather-images{
+        text-align: center;
+    }
+    weather-events{
+        text-align: center;
+        margin: auto;
+    }
+    #hero-content{
+        position: absolute;
+        left: 20px;
+    }
+    #hero-image > img{
+        height: 300px;
+        max-width: 100%;
+        margin-left: 200px;
+    }
+    #article{
+        margin: auto;
+        margin-top: 20px;
+        width: 800px;
+        background-color: rgb(241,241,241);
+        padding: 15px;
+        border-radius: 25px;
+    }
+    footer{
+        text-align: center;
+    }
+    
 }

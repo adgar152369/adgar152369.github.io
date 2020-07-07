@@ -45,30 +45,8 @@
     nav li{
         padding-bottom: 5px;
     }
-    div img{
-        border-radius: 15px;
-        max-width: 75%;
-    }
-    #purpose{
-        background-color: rgb(241,241,241);
-        border-radius: 15px;
-        padding: 15px;
-        margin: 20px;
-    }
-    #info{
-        background-color: rgb(241,241,241);
-        border-radius: 15px;
-        padding: 15px;
-        margin: 20px 60px 0 60px;
-    }
-    th, td{
-        border: rgb(0, 0, 0) 1px solid;
-        padding: 10px;
-    }
-    table{
-        margin: 10px;
-    }
     footer{
+        border-top: dotted black 5px;
         margin: auto;
         text-align: center;
         padding: 10px;
@@ -76,15 +54,6 @@
     }
     .main-info{
         text-align: center;
-    }
-    main h3{
-        padding: 15px;
-        border: solid black 1px;
-        width: 50%;
-        text-align: center;
-        margin: auto;
-        margin-top: 15px;
-        background-color: rgb(241,241,241);
     }
     .hide{
         display: none;
@@ -99,4 +68,5 @@
         padding: 10px;
         border: black solid 1px;
     }
+
 }
