@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px){
+body{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Header and navigation CSS */
+
+header{
+    text-align: center;
+    border-bottom: solid black 1px;
+    background-color: rgb(255, 255, 204);
+}
+.main-header{
+    display: inline-block;
+}
+#search{
+    margin-right: -100px;
+}
+.nav-button{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:hover{
+    color: grey;
+}
+
+/* Side bar CSS */
+
+#side-bar-header{
+    background-color: rgb(215, 252, 253);
+    text-align: center;
+    padding: 1px;
+    border-bottom: solid black 1px;
+}
+#side-bar{
+    width: 150px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    height: 500px;
+}
+#calendar{
+    position: relative;
+    top: -250px;
+    margin-left: 150px;
+}
+
+/* Info paragraph CSS */
+#info{
+    margin: auto;
+    width: 250px;
+    border: solid black;
+    text-align: center;
+}
+
+}

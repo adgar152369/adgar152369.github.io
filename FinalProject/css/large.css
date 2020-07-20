@@ -1,0 +1,98 @@
+@media only screen and (min-width: 1200px){
+body{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Header and navigation CSS */
+
+header{
+    text-align: center;
+    border-bottom: solid black 1px;
+    background-color: rgb(255, 255, 204);
+}
+.main-header{
+    display: inline-block;
+}
+#search{
+    float: right;
+    margin-right: -500px;
+}
+.nav-button{
+    display: inline-block;
+    margin: 80px 80px 40px 80px;
+    font-size: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:hover{
+    color: grey;
+}
+
+/* Side bar CSS */
+
+#side-bar-header{
+    background-color: rgb(215, 252, 253);
+    text-align: center;
+    padding: 1px;
+    border-bottom: solid black 1px;
+}
+#side-bar{
+    width: 300px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    height: 500px;
+}
+/* Calendar CSS*/
+
+#calendar{
+    position: relative;
+    top: 100px;
+    margin-left: 550px;
+    margin-bottom: 150px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+/* Info paragraph CSS */
+#info{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: -500px;
+    position: relative;
+}
+#info > p{
+    text-align: left;
+    width: 400px;
+}
+
+/* picture slide images CSS */
+
+#picture-viewer > img{
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+    border-radius: 25px;
+}
+#picture-viewer{
+    text-align: center;
+}
+.image-button{
+    position: relative;
+    background-color: darkgreen;
+    opacity: 1;
+    font-size: 40px;
+    margin: 0 60px;
+    top: -100px;
+    border-radius: 25px;
+    border: solid green;
+}
+
+}

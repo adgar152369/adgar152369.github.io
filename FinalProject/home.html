@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;600&display=swap" rel="stylesheet">
+    <title>Scoots</title>
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <h1 class="headers" id="header-1">Scoots</h1> 
+        </div>
+        <div class="main-header">
+            <input type="text" id="search" name="info-search">
+            <img src="images"> 
+        </div>
+        <nav id="navigation">
+            <div class="nav-button">
+                <a href="home.html">Home</a>
+            </div>
+            <div class="nav-button">
+                <a href="#">Rentals</a>
+            </div>
+            <div class="nav-button">
+                <a href="#">Reservations</a>
+            </div>
+            <div class="nav-button">
+                <a href="#">Tours</a>
+            </div>
+            <div class="nav-button">
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section id="side-bar">
+        <div id="side-bar-header">
+            <h2>Quick Links</h2>
+        </div>
+        <div id="quick-links">
+            <a href="#">Popular Areas</a>
+        </div>
+        <div id="side-bar-info">
+            
+        </div>
+    </section>
+
+    <section id="info">
+        <h1>Welcome to Scoots!</h1>
+        <p>Scoots is proud to serve tourists the best experience.</p>
+    </section>
+    <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%237CB342&amp;ctz=America%2FDenver&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=Calendar" style="border:solid 1px #777" width="400" height="300" frameborder="0" scrolling="no"></iframe>
+
+    <section id="picture-viewer">
+        <img class="slide-images" src="images/cozumel1.jpg">
+        <img class="slide-images" src="images/cozumel2.jpg">
+        <img class="slide-images" src="images/cozumel3.jpg">
+        <button class="image-button" onclick="clickButton(-1)">&#10094</button>
+        <button class="image-button" onclick="clickButton(1)">&#10095</button>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="js/calendar.js"></script>
+    <script src="js/image-slider.js"></script>
+</body>
+</html>
