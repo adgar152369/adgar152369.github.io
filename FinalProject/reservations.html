@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;600&display=swap" rel="stylesheet">
+    <title>Reservations</title>
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <h1 class="headers" id="header-1">Scoots</h1> 
+        </div>
+        <div class="main-header">
+            <input type="text" id="search" name="info-search">
+            <img src="images"> 
+        </div>
+        <nav id="navigation">
+            <div class="nav-button">
+                <a href="home.html">Home</a>
+            </div>
+            <div class="nav-button">
+                <a href="rentals.html">Rentals</a>
+            </div>
+            <div class="nav-button">
+                <a href="reservations.html">Reservations</a>
+            </div>
+            <div class="nav-button">
+                <a href="tours.html">Tours</a>
+            </div>
+            <div class="nav-button">
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="homeTitle">
+          <h2>SCOOTS Reservations</h2>
+        </div>
+        
+          <h2>Reserve your rental here!</h2>
+          <form method="GET" action="confirmation.html">
+              <fieldset>
+                <legend>Your Information</legend>
+                  <label class="info">
+                  *Full Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+                  </label>
+                  <label class="info">
+                  Email: <input type="email" name="email" placeholder="info@SCOOTS.com">
+                  </label>  
+                  <label class="info">
+                  *Phone: <input type="tel" name="phone" title="Please write 10 numbers or more" placeholder="123-456-7890" required>
+                  </label>
+                  <label class="info">
+                  *Number of People: <input type="number" name="people" required>
+                  </label>
+                  <label class="info">
+                    State/Country: <input type="text" name="country" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$">
+                  </label>
+                  <label class="rental">
+                    Cruise Line: <select name="cruise" id="cruise">
+                    <option selected disabled>Select....</option>
+                    <option value="Princess">Princess</option>
+                    <option value="Carnival">Carnival</option>
+                    <option value="Royal Caribbean">Royal Caribbean</option>
+                    <option value="Other">Other</option>
+                    <option value="N/A">N/A</option>
+                    </select>
+                  </label> 
+              </fieldset>
+              <fieldset>
+                <legend>Rental Information</legend>
+                  <label class="rental">
+                    Rental Type: <select name="rental_type" id="rental_type">
+                    <option selected disabled>Select....</option>
+                    <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                    <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                    <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                    <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                    <option value="Jeep Wrangler 4-door with A/C">Jeep Wrangler 4-door with A/C</option>
+                    <option value="Jeep Wrangler 2-door">Jeep Wrangler 2-door</option>
+                    </select>
+                  </label> 
+                  <label class="info">Date of Rental: </label>
+                    <input type="date" id="rental_date" name="date">
+                  <label class="info">
+                    *Rental Period(in hours): <input type="number" name="period" required>
+                  </label>
+                  <label class="top">Special Accommodations/Comments: </label>
+                  <textarea name="comments" id="comments"></textarea>
+              </fieldset>
+              <a style="border: solid 1px black;" href="confirm.html">Reserve your trip</a>
+          </form>
+      </main>
+      <footer>
+        <nav id="footer-nav">
+            <div class="nav-button">
+                <a href="home.html">Home</a>
+            </div>
+            <div class="nav-button">
+                <a href="rentals.html">Rentals</a>
+            </div>
+            <div class="nav-button">
+                <a href="reservations.html">Reservations</a>
+            </div>
+            <div class="nav-button">
+                <a href="#">Tours</a>
+            </div>
+            <div class="nav-button">
+                <a href="#">Contact</a>
+            </div>
+            <div>
+                &copy;<span id="copyright"></span> | Adam Garcia | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+              </div>
+        </nav>
+    </footer>
+    </body>
+  </html>
+</body>
+</html>

@@ -95,4 +95,28 @@ a:hover{
     border: solid green;
 }
 
+/* Rentals CSS*/
+#Info{
+    margin: auto;
+}
+footer #footer-nav{
+    background-color: rgb(215, 252, 253);
+    text-align: center;
+}
+
+#tour-information img{
+    height: 400px;
+    margin-left: 20px;
+}
+#tour-information{
+    margin-left: 20px;
+}
+#img-info{
+    position: relative;
+    font-size: 20px;
+    left: 700px;
+    top: -400px;
+    width: 300px;
+}
+
 }
