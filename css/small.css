@@ -1,0 +1,57 @@
+html{
+    background-color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(240, 240, 240);
+}
+
+span p{
+    display: inline;
+    max-width: 100%;
+    color: yellow;
+}
+footer{
+    max-width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 240px;
+    height: 115px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+header{
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+@media only screen and (max-width: 32.5em){
+    #fam-image{
+        max-height: 300px;
+        margin: auto;
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+}
+#lesson-list{
+    padding: 15px;
+}
+#assignment-portal-header{
+    padding: 20px;
+    border-bottom: solid 1px black;
+    max-width: 50%;
+}
+footer a{
+    color: white;
+}
+a:hover{
+    color: grey;
+}
