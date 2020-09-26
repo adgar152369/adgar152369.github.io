@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px){
+    body{
+        display: grid;
+        grid-template-columns: repeat( 1, minmax(250px, 1fr) );
+    }
+    img{
+        max-height: 1200px;
+    }
+}
