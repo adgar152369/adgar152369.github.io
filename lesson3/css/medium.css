@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px){   
+    nav li{
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    #logo-container img{
+        height: 200px;
+    }
+}

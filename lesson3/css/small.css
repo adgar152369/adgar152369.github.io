@@ -1,0 +1,26 @@
+@media screen and (max-width: 660px){
+    nav ul{
+        display: block;
+        background-color: lightblue;
+        padding: 0;
+        margin-top: -25px;
+    }
+    nav li{
+        text-align: center;
+        font-size: 20px;
+        border-bottom: solid grey 1px;
+    }
+    #header-1{
+        font-size: 30px;
+    }
+    .paras{
+        width: 90%;
+    }
+    #logo-container{
+        float: none;
+        position: inherit;
+    }
+    #border{
+        border: none;
+    }
+}
