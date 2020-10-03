@@ -6,4 +6,11 @@
     #logo-container img{
         height: 200px;
     }
+    #color-scheme{
+        height: 350px;
+        margin: 40px;
+    }
+    #typ-image{
+        height: 50px;
+    }
 }

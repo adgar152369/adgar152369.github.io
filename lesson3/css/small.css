@@ -23,4 +23,8 @@
     #border{
         border: none;
     }
+    #color-scheme{
+        height: 215px;
+        margin: 10px;
+    }
 }

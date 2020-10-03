@@ -66,8 +66,11 @@ a:hover{
 }
 /* color-scheme.html CSS */
 #color-scheme{
-    height: 450px;
+    max-height: 450px;
     margin: 40px;
+}
+#typ-image{
+    height: 100px;
 }
 
 /* FOOTER CSS */
