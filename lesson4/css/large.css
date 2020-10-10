@@ -50,6 +50,10 @@ main .content-sections{
     margin: auto;
     margin-top: 20px;
 }
+.navigation #bread-crumb{
+    background-color: lightslategrey;
+}
+
 
 /* FOOTER CSS */
 footer {
