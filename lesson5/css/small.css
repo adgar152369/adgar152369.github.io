@@ -25,4 +25,12 @@
     .ham-2{
         border-bottom: 1px solid grey;
     }
+
+    #banner-display{
+        position: absolute;
+        background-color: white;
+        width: 220px;
+        top: 150px;
+        right: 20px;
+    }
 }
