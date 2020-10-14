@@ -1,0 +1,28 @@
+@media screen and (max-width: 660px){
+    nav ul{
+        display: block;
+    }
+    nav li{
+        padding: 20px;
+        display: none;
+    }
+    footer {
+        text-align: center;
+        color: white;
+        margin: auto;
+        padding: 15px;
+        max-width: 100%;
+    }
+    .navigation li:first-child{
+        display: block;
+    }
+    .responsive li{
+        display: block;
+    }
+    .ham{
+        font-size: 30px;
+    }
+    .ham-2{
+        border-bottom: 1px solid grey;
+    }
+}
