@@ -25,12 +25,9 @@
     .ham-2{
         border-bottom: 1px solid grey;
     }
-
-    #banner-display{
+    header span{
         position: absolute;
-        background-color: white;
-        width: 220px;
+        width: 200px;
         top: 150px;
-        right: 20px;
     }
 }

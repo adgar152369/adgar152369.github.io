@@ -55,14 +55,8 @@ main .content-sections{
     margin: auto;
     margin-top: 20px;
 }
-#banner-display{
-    position: absolute;
-    background-color: white;
-    right: 200px;
-    top: 50px;
-    padding: 10px;
-    width: 220px;
-    box-shadow: 5px 5px 10px grey;
+header span{
+    color: green;
 }
 
 /* FOOTER CSS */
