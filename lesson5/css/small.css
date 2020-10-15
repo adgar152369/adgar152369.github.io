@@ -16,9 +16,9 @@
     .navigation li:active{
         background-color: gray;
     }
-
     .navigation li:first-child{
         display: block;
+        background-color: lightblue;
     }
     .responsive li{
         display: block;
