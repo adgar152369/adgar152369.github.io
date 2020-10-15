@@ -46,6 +46,7 @@ main{
 main h1{
     margin: 20px;
     text-align: center;
+    font-weight: 500;
 }
 main{
     text-align: center;
