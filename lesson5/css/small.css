@@ -1,4 +1,4 @@
-@media screen and (max-width: 660px){
+@media screen and (max-width: 720px){
     nav ul{
         display: block;
     }
@@ -13,6 +13,10 @@
         padding: 15px;
         max-width: 100%;
     }
+    .navigation li:active{
+        background-color: gray;
+    }
+
     .navigation li:first-child{
         display: block;
     }
@@ -37,8 +41,10 @@
         height: 320px;
     }
     main #weather-summary{
-        left: 200px;
+        left: 180px;
         top: 20px;
+        height: 200px;
+        width: 200px;
     }
     #forecast-container{
         display: none;
@@ -46,5 +52,15 @@
     #article-section img{
         height: 200px;
         float: none;
+    }
+    #contact-section{
+        display: block;
+        text-align: center;
+    }
+    #grid-container{
+        display: block;
+    }
+    #contact-section img{
+        display: none;
     }
 }
