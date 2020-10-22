@@ -1,0 +1,21 @@
+@media screen and (max-width: 1200px){
+    main #hero{
+        border: none;
+        text-align: center;
+    }
+    main #weather-summary{
+        height: 400px;
+        width: 300px;
+        background-color: white;
+        left: 70px;
+        top: 20px;
+    }
+    #contact-section img{
+        height: 200px;
+    }
+    #grid-container{
+        display: block;
+        grid-template-columns: auto auto;
+        grid-gap: 15px;
+    }
+}
