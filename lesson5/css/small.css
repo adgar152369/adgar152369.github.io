@@ -38,6 +38,7 @@
     main #weather-summary{
         position: static;
         display: block;
+        margin: auto;
         height: 200px;
         width: 200px;
     }
