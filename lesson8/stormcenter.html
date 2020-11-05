@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Storm Center</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stormcenter.css">
+</head>
+
+<body>
+	<header></header>
+	<main>
+	    <form action="form-submit.html">
+	        <label>Full Name: </label><br>
+	            <input type="text" minlength="5" required><br>
+	        <label>Email:</label><br>
+	            <input type="email" placeholder="youremail@email.com"><br>
+	        <label>Phone Number: </label><br>
+	            <input type="tel" required><br>
+	        <label>Zip Code: </label><br>
+	            <input type="number" required><br>
+	        <label>Storm Date: </label><br>
+	            <input type="date"><br>
+	        <label>Storm Type:</label><br>
+	            <input list="storm-types"><br>
+	            <datalist id="storm-types">
+	                <option value="Tornado"></option>
+	                <option value="Thunderstorm"></option>
+	                <option value="Hail"></option>
+	                <option value="Hurricane"></option>
+	                <option value="Flash Flood"></option>
+	            </datalist>
+	        <label>Storm Severity:</label>
+	           <div class="slidecontainer">
+                <span id="demo"></span><br><input type="range" min="1" max="10" value="5" id="myRange">
+                </div>
+            <label for="locations">Location: </label><br>
+                <select name="locations">
+                    <option value="" selected disabled>Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select><br>
+            <label>Is User in Danger?</label><br>
+                <input name="danger-level" id="yes" type="radio" value="Yes">
+                    <label for="yes">Yes</label>
+                <input name="danger-level" id="no" type="radio" value="No">
+                    <label for="no">No</label>
+                <input name="danger-level" id="maybe" type="radio" value="Maybe">
+                    <label for="maybe">Maybe</label><br>
+            <label>Additional Comments?</label><br>
+                <textarea id="comments" name="comments" rows="5" cols="20"></textarea><br>
+                <button formaction="/lesson8/thanks.html">Submit</button>
+	    </form>
+	</main>
+	<footer></footer>
+	<script src="form.js"></script>
+</body>
+
+</html>
