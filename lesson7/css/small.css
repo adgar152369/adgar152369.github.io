@@ -1,0 +1,41 @@
+@media screen and (max-width: 720px){
+    nav ul{
+        display: block;
+    }
+    nav li{
+        padding: 20px;
+        display: none;
+    }
+    footer {
+        max-width: 100%;
+    }
+    .navigation li:active{
+        background-color: gray;
+    }
+    .navigation li:first-child{
+        display: block;
+        background-color: lightblue;
+    }
+    .responsive li{
+        display: block;
+    }
+    .ham{
+        font-size: 30px;
+    }
+    .ham-2{
+        border-bottom: 1px solid grey;
+    }
+    header span{
+        position: absolute;
+        width: 300px;
+        top: 150px;
+        right: 30px;
+    }
+    main{
+        display: block;
+    }
+    main img{
+        text-align: center;
+        height: 500px;
+    }
+}
