@@ -14,7 +14,7 @@ section{
 }
 img{
     height: 300px;
-    margin-top: 10px;
+    margin: 20px;
     box-shadow: 0 0 15px 3px black;
 }
 
@@ -22,6 +22,12 @@ img{
     grid-template-columns: repeat(4, 25%);
     display: grid;
     justify-content: center;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    padding: 10px;
+    background-color: seashell;
 }
 
 @media only screen and (max-width: 600px) { 
