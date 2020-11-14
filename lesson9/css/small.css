@@ -38,4 +38,11 @@
     main img{
         margin-top: 20px;
     }
+    #grid-wrapper{
+        display: block;
+    }
+    div#forecast-container{
+        text-align: center;
+        margin-left: -60px;
+    }
 }

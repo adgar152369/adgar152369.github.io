@@ -54,8 +54,7 @@ main{
     margin: 5px;
     box-shadow: lightgray 1px 1px 10px 1px;
 }
-
-h3{
+.cards h3{
     font-style: italic;
 }
 main img{
@@ -85,6 +84,89 @@ main img{
     margin: auto;
     margin-top: 20px;
     padding: 20px;
+}
+main #hero{
+    width: 100%;
+    height: 600px;
+}
+header span{
+    color: green;
+}
+#content-1{
+    position: relative;
+}
+#weather-summary{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    left: 70px;
+    top: 20px;
+}
+
+/* Weather Forecast CSS */
+#forecast-container{
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.weather-forecast{
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+}
+.weather-forecast ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.weather-forecast h3{
+    background-color: lightblue;
+    margin: 0;
+    padding: 5px;
+}
+.weather-forecast li{
+    flex: 1;
+}
+.weather-forecast li:first-child{
+    border-left: none;
+}
+.weather-forecast img{
+    height: 100px;
+}
+
+/* Article CSS */
+#article-section{
+    max-width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+    background-color: rgb(233, 233, 233);
+    padding: 45px;
+}
+#article-section img{
+    height: 200px;
+    float: right;
+    padding: 15px;
+}
+
+/* contact CSS */
+#contact-section{
+    background-color: lightblue;
+    margin: auto;
+    padding: 10px 45px 45px 45px;
+    width: 65%;
+    margin-top: 50px;
+}
+#contact-section img{
+    height: 250px;
+}
+#grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    text-align: center;
 }
 figure{
     text-align: center;
