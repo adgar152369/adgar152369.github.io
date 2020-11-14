@@ -1,7 +1,5 @@
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-let townImages = ["images/fish-haven-hero.jpg", "images/preston.jpg", "images/idaho1.jpg"];
-
 fetch(requestURL)
   .then(function (response) {
     return response.json();
