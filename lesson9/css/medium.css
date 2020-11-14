@@ -22,4 +22,7 @@
     main img{
         margin-top: -200px;
     }
+    #grid-container{
+        display: block;
+    }
 }
