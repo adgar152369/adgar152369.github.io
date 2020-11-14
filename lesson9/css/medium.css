@@ -1,0 +1,25 @@
+@media screen and (max-width: 1000px){
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
+    .cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0.5rem;
+        text-align: center;
+        line-height: 20px;
+    }
+    .cards section:nth-child(2) img {
+        grid-column: 1;
+    }
+    .cards section:nth-child(2) .header-container {
+        grid-column: 2;
+    }
+    .cards section:nth-child(odd) .header-container{
+        grid-column: 1;
+    }
+    main img{
+        margin-top: -200px;
+    }
+}
