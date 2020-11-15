@@ -25,6 +25,7 @@ nav ul{
     background-color: lightblue;
     margin: 0;
     color: grey;
+    margin-bottom: 20px;
 }
 nav li{
     margin: auto;
@@ -167,6 +168,19 @@ header span{
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
     text-align: center;
+}
+#hero-image{
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(233, 233, 233);
+    max-width: 85%;
+    margin: auto;
+}
+#hero-image img{
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    padding: 20px;
 }
 figure{
     text-align: center;

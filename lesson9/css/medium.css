@@ -46,4 +46,8 @@
         display: block;
         text-align: center;
     }
+    #hero-image img{
+        height: 400px;
+        max-width: 85%;
+    }
 }

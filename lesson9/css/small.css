@@ -45,4 +45,15 @@
         text-align: center;
         margin-left: -60px;
     }
+    #hero-image{
+        text-align: center;
+        margin-top: 40px;
+        background-color: rgb(233, 233, 233);
+        max-width: 90%;
+        margin: auto;
+    }
+    #hero-image img{
+        height: 400px;
+        max-width: 90%;
+    }
 }
