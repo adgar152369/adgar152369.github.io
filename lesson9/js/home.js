@@ -6,10 +6,10 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
-
-    towns.splice(6,1);    
-    towns.splice(2,2);    
-    towns.splice(0,1);    
+    console.log(towns);
+    
+    towns.splice(0,1);
+    towns.splice(1,3);
     for (let i = 0; i < towns.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
