@@ -1,0 +1,66 @@
+@media screen and (max-width: 720px){
+    nav ul{
+        display: block;
+    }
+    nav li{
+        padding: 20px;
+        display: none;
+    }
+    footer {
+        max-width: 100%;
+    }
+    .navigation li:active{
+        background-color: gray;
+    }
+    .navigation li:first-child{
+        display: block;
+        background-color: lightblue;
+    }
+    .responsive li{
+        display: block;
+    }
+    .ham{
+        font-size: 30px;
+    }
+    .ham-2{
+        border-bottom: 1px solid grey;
+    }
+    header span{
+        position: absolute;
+        width: 300px;
+        top: 150px;
+        right: 30px;
+    }
+    main #hero{
+        max-width: 100%;
+        height: 320px;
+    }
+    main #weather-summary{
+        background-color: lightgray;
+        position: static;
+        display: block;
+        margin: auto;
+        height: 200px;
+        width: 200px;
+    }
+    #weather-summary span{
+        font-weight: 800;
+    }
+    #forecast-container ul{
+        display: block;
+    }
+    #article-section img{
+        height: 200px;
+        float: none;
+    }
+    #contact-section img{
+        display: none;
+    }
+    .weather-forecast h3{
+        border-bottom: none;
+        background-color: paleturquoise;
+    }
+    .weather-forecast li{
+        border-right: none;
+    }
+}
