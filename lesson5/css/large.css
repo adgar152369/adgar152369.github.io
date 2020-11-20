@@ -66,11 +66,15 @@ header span{
 }
 #weather-summary{
     position: absolute;
-    height: 500px;
+    height: 250px;
     width: 300px;
     background-color: white;
     left: 70px;
     top: 20px;
+    box-shadow: 1px 1px 10px;
+}
+#weather-summary span{
+    font-weight: 800;
 }
 
 /* Weather Forecast CSS */
@@ -81,26 +85,34 @@ header span{
     width: 65%;
     margin: auto;
     margin-top: 20px;
+    background-color: lightblue;
 }
 .weather-forecast ul{
     list-style: none;
     display: flex;
-    padding: 0;
+    padding: 15px;
     margin: 0;
 }
 .weather-forecast h3{
-    background-color: lightblue;
+    border-bottom: 1px solid grey;
     margin: 0;
     padding: 5px;
 }
 .weather-forecast li{
     flex: 1;
+    padding: 15px;
 }
 .weather-forecast li:first-child{
     border-left: none;
 }
+.weather-forecast li:last-child{
+    border-right: none;
+}
 .weather-forecast img{
     height: 100px;
+}
+.list-item{
+    font-weight: 800;
 }
 
 /* Article CSS */

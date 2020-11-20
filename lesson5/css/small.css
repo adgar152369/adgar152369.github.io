@@ -36,14 +36,18 @@
         height: 320px;
     }
     main #weather-summary{
+        background-color: lightgray;
         position: static;
         display: block;
         margin: auto;
         height: 200px;
         width: 200px;
     }
-    #forecast-container{
-        display: none;
+    #weather-summary span{
+        font-weight: 800;
+    }
+    #forecast-container ul{
+        display: block;
     }
     #article-section img{
         height: 200px;
@@ -51,5 +55,12 @@
     }
     #contact-section img{
         display: none;
+    }
+    .weather-forecast h3{
+        border-bottom: none;
+        background-color: paleturquoise;
+    }
+    .weather-forecast li{
+        border-right: none;
     }
 }
