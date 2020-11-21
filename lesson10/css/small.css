@@ -50,7 +50,8 @@
         display: block;
     }
     #article-section img{
-        height: 200px;
+        width: 90%;
+        margin: auto;
         float: none;
     }
     #contact-section img{
@@ -62,5 +63,8 @@
     }
     .weather-forecast li{
         border-right: none;
+    }
+    #banner-display{
+        position: static;
     }
 }
