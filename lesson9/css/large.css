@@ -41,6 +41,9 @@ a{
 a:hover{
     color: rgb(85, 85, 85);
 }
+.navigation li:nth-of-type(2){
+    background-color: gray;
+}
 main{
     text-align: center;
 }

@@ -37,6 +37,9 @@ a{
     color: white;
     text-decoration: none;
 }
+.navigation li:nth-of-type(6){
+    background-color: gray;
+}
 a:hover{
     color: rgb(85, 85, 85);
 }

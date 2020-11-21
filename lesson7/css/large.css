@@ -33,6 +33,9 @@ nav li{
 .navigation li:first-child{
     display: none;
 }
+.navigation li:nth-of-type(7){
+    background-color: gray;
+}
 a{
     color: white;
     text-decoration: none;
