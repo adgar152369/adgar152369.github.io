@@ -1,4 +1,7 @@
 @media screen and (max-width: 1000px){
+    nav ul {
+        font-size: 13px;
+    }
     .cards{
         grid-template-columns: 1fr;
     }
@@ -49,5 +52,10 @@
     #hero-image img{
         height: 400px;
         max-width: 85%;
+    }
+    nav ul{
+        text-align: center;
+        flex-wrap: nowrap;
+        font-size: 13px;
     }
 }

@@ -1,11 +1,4 @@
-@media only screen and (max-width: 600px){
-    nav ul{
-        display: block;
-    }
-    nav li{
-        padding: 20px;
-        display: none;
-    }
+@media only screen and (max-width: 720px){
     footer {
         max-width: 100%;
     }
@@ -26,5 +19,18 @@
     }
     .ham-2{
         border-bottom: 1px solid grey;
+    }
+    .ham:hover {
+        background-color: lightblue;
+        color: white;
+    }
+    nav ul{
+        display: block;
+        text-align: left;
+        font-size: inherit;
+    }
+    nav li{
+        display: none;
+        width: auto;
     }
 }

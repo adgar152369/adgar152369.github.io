@@ -41,7 +41,7 @@ a{
     display: block;
     padding: 20px;
 }
-.navigation li:nth-of-type(3){
+.navigation li:nth-of-type(4){
     background-color: rgb(231, 249, 255);
 }
 a:hover{
@@ -93,7 +93,7 @@ a:hover{
 }
 article img {
     margin: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
     width: 45%;
 }
 article a {

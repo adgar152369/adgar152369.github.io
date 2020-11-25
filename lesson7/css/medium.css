@@ -3,4 +3,9 @@
         grid-template-columns: repeat(2, 400px);
         grid-gap: 10px;
     }
+    nav ul{
+        text-align: center;
+        flex-wrap: nowrap;
+        font-size: 13px;
+    }
 }
