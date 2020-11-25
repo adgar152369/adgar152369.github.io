@@ -40,6 +40,7 @@ a{
     text-decoration: none;
     display: block;
     padding: 20px;
+    transition: all .25s
 }
 .navigation li:nth-of-type(3){
     background-color: rgb(231, 249, 255);
@@ -95,16 +96,18 @@ article img {
     margin: 10px;
     border-radius: 25px;
     width: 45%;
+    height: 45%;
 }
 article a {
     padding: 10px;
-    background-color: lightgray;
+    background-color: rgb(224, 59, 59);
     width: 30%;
     text-align: center;
     border-radius: 25px;
+    transition: all .25s;
 }
 article a:hover{
-    background-color: red;
+    background-color: lightpink;
 }
 article h2 {
     border-bottom: red .5px solid;

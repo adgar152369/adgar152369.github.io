@@ -39,6 +39,7 @@ a{
     text-decoration: none;
     display: block;
     padding: 20px;
+    transition: all .25s;
 }
 .navigation li:nth-of-type(7){
     background-color: rgb(231, 249, 255);

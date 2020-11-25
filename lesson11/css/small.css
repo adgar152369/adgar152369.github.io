@@ -47,6 +47,9 @@
         display: block;
         text-align: center;
     }
+    #forecast-container {
+        display: none;
+    }
     nav ul{
         display: block;
         text-align: left;

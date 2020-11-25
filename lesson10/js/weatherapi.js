@@ -31,10 +31,10 @@ fetch(apiURL)
       document.getElementById('forecast-day4').textContent = Math.round(forecastData[3].main.temp);
       document.getElementById('forecast-day5').textContent = Math.round(forecastData[4].main.temp);
 
-      document.getElementById('forecast-image1').src = "https://openweathermap.org/img/w/" + forecastData[0].weather[0].icon + ".png";
-      document.getElementById('forecast-image2').src = "https://openweathermap.org/img/w/" + forecastData[1].weather[0].icon + ".png";
-      document.getElementById('forecast-image3').src = "https://openweathermap.org/img/w/" + forecastData[2].weather[0].icon + ".png";
-      document.getElementById('forecast-image4').src = "https://openweathermap.org/img/w/" + forecastData[3].weather[0].icon + ".png";
-      document.getElementById('forecast-image5').src = "https://openweathermap.org/img/w/" + forecastData[4].weather[0].icon + ".png";
+      document.getElementById('forecast-img1').src = "https://openweathermap.org/img/w/" + forecastData[0].weather[0].icon + ".png";
+      document.getElementById('forecast-img2').src = "https://openweathermap.org/img/w/" + forecastData[1].weather[0].icon + ".png";
+      document.getElementById('forecast-img3').src = "https://openweathermap.org/img/w/" + forecastData[2].weather[0].icon + ".png";
+      document.getElementById('forecast-img4').src = "https://openweathermap.org/img/w/" + forecastData[3].weather[0].icon + ".png";
+      document.getElementById('forecast-img5').src = "https://openweathermap.org/img/w/" + forecastData[4].weather[0].icon + ".png";
 
     });

@@ -24,7 +24,7 @@ fetch(fishHavenURL)
       document.getElementById('FH-wind-speed').textContent = jsObject.wind.speed;
   });
 
-const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=1b0d8ea710feef154d2b954a90a575f1';
+const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&units=imperial&appid=1b0d8ea710feef154d2b954a90a575f1';
   fetch(apiURLforecast)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -43,4 +43,25 @@ const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604
         document.getElementById('forecast-day3').textContent = Math.round(forecast[2].main.temp);
         document.getElementById('forecast-day4').textContent = Math.round(forecast[3].main.temp);
         document.getElementById('forecast-day5').textContent = Math.round(forecast[4].main.temp);
+    });
+
+  const apiURLSodaSpringsForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=1b0d8ea710feef154d2b954a90a575f1';
+  fetch(apiURLSodaSpringsForecast)
+    .then((response) => response.json())
+    .then((jsObject) => {
+
+        const forecast = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
+        console.log(forecast);
+        
+        document.getElementById('ss-forecast-img1').src = "https://openweathermap.org/img/w/" + forecast[0].weather[0].icon + ".png";
+        document.getElementById('ss-forecast-img2').src = "https://openweathermap.org/img/w/" + forecast[1].weather[0].icon + ".png";
+        document.getElementById('ss-forecast-img3').src = "https://openweathermap.org/img/w/" + forecast[2].weather[0].icon + ".png";
+        document.getElementById('ss-forecast-img4').src = "https://openweathermap.org/img/w/" + forecast[3].weather[0].icon + ".png";
+        document.getElementById('ss-forecast-img5').src = "https://openweathermap.org/img/w/" + forecast[4].weather[0].icon + ".png";
+        
+        document.getElementById('ss-forecast-day1').textContent = Math.round(forecast[0].main.temp);
+        document.getElementById('ss-forecast-day2').textContent = Math.round(forecast[1].main.temp);
+        document.getElementById('ss-forecast-day3').textContent = Math.round(forecast[2].main.temp);
+        document.getElementById('ss-forecast-day4').textContent = Math.round(forecast[3].main.temp);
+        document.getElementById('ss-forecast-day5').textContent = Math.round(forecast[4].main.temp);
     });
