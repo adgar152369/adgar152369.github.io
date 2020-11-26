@@ -28,6 +28,7 @@ nav ul{
     justify-content: space-around;
     text-align: center;
     flex-wrap: nowrap;
+    box-shadow: 0 -4px 10px -1px lightgray;
 }
 nav li{
     width: 100%;
@@ -50,6 +51,7 @@ a:hover{
 }
 .content img {
     width: 100%;
+    box-shadow: 0 8px 10px -6px gray;
 }
 #forecast-container {
     margin: auto;
