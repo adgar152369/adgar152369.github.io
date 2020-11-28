@@ -131,3 +131,30 @@ article h2 {
     list-style-type: none;
     line-height: 40px;
 }
+#contact-section{
+    background-color: lightblue;
+    margin: auto;
+    padding: 10px 45px 45px 45px;
+    width: 65%;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+#contact-section img{
+    height: 250px;
+}
+#grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 15px;
+    height: 90px;
+    max-width: 75%;
+    margin-top: 40px;
+}

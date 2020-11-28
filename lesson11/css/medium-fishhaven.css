@@ -28,6 +28,13 @@
         width: 85%;
 
     }
+    #contact-section img{
+        height: 200px;
+    }
+    #grid-wrapper{
+        display: block;
+        text-align: center;
+    }
     nav ul{
         text-align: center;
         flex-wrap: nowrap;

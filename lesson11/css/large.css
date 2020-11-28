@@ -60,7 +60,6 @@ a:hover{
     border-radius: 25px;
     width: 65%;
     background-color: white;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 #forecast-container h2 {
     border-bottom: red .5px solid;
@@ -89,7 +88,6 @@ a:hover{
     border-radius: 25px;
     line-height: 2em;
     background-color: white;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 #article-and-image {
     display: flex;
@@ -98,6 +96,7 @@ article img {
     margin: 10px;
     border-radius: 15px;
     width: 45%;
+    height: 200px;
 }
 article a {
     padding: 10px;
@@ -125,7 +124,6 @@ article h2 {
     padding: 20px;
     border-radius: 25px;
     width: 65%;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 #weather-conditions span {
     font-weight: 800;
@@ -133,4 +131,31 @@ article h2 {
 #weather-conditions ul {
     list-style-type: none;
     line-height: 40px;
+}
+#contact-section{
+    background-color: lightblue;
+    margin: auto;
+    padding: 10px 45px 45px 45px;
+    width: 65%;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+#contact-section img{
+    height: 250px;
+}
+#grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 15px;
+    height: 90px;
+    max-width: 75%;
+    margin-top: 40px;
 }

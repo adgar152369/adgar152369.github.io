@@ -27,6 +27,7 @@ nav ul{
     justify-content: space-around;
     text-align: center;
     flex-wrap: nowrap;
+    box-shadow: 0 -4px 10px -1px lightgray;
 }
 nav li{
     width: 100%;
