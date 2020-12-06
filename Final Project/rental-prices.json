@@ -1,0 +1,41 @@
+[
+    {
+        "rentalType": "Honda Metro Scooter",
+        "reservationType": {
+            "reserved": {
+                "priceHalfDay": "$20",
+                "priceFullDay": "$40"
+            },
+            "walkIn": {
+                "priceHalfDay": "$25",
+                "priceFullDay": "$35"
+            }
+        }
+    },
+    {
+        "rentalType": "Honda Dio Scooter",
+        "reservationType": {
+            "reserved": {
+                "priceHalfDay": "$30",
+                "priceFullDay": "$40"
+            },
+            "walkIn": {
+                "priceHalfDay": "$35",
+                "priceFullDay": "$45"
+            }
+        }
+    },
+    {
+        "rentalType": "Honda PCX150 Scooter",
+        "reservationType": {
+            "reserved": {
+                "priceHalfDay": "$40",
+                "priceFullDay": "$50"
+            },
+            "walkIn": {
+                "priceHalfDay": "$25",
+                "priceFullDay": "$45"
+            }
+        }
+    },
+]

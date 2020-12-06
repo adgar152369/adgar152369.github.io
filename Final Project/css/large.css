@@ -1,0 +1,9 @@
+@media (min-width: 1200px) {
+    .two-column-layout:nth-of-type(2) {
+        padding: 15px;
+    }
+
+    .weather-forecast-container #subtitle {
+        text-align: left;
+    }
+}

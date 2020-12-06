@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Scoots - Home Page</title>
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="headers">Scoots</h1>
+            <img src="" alt="scoots logo">
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li style="background-color: black; color: white;"><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="">Reservations</a></li>
+                <li><a href="">Tours</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about-us-container">
+        <h2>About Us</h2>
+        <p>We are a motor scooter rental company located on the island of Cozumel off the coast of Mexico in the western Caribbean Sea. Scoots company caters to locals, walk-in tourists, enthusiasts, and cruise-based touring groups and partnerships. We help those "do their homework" before they arrive by providing information about the island, our services, and rentals. Aliquam, nostrum ab. Ducimus culpa corrupti molestiae autem? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio praesentium quam vitae amet quia maiores   vel neque laudantium delectus ducimus, commodi officiis adipisci magni, et nihil odit explicabo vero similique!</p>
+        <h2>About Cozumel</h2>
+        <p>Cozumel is an island and municipality in the Caribbean Sea off the eastern coast of Mexico's Yucatán Peninsula, opposite Playa del Carmen. The economy of Cozumel is based on tourism, with visitors able to benefit from the island's balnearios, scuba diving, and snorkeling. The main town on the island is San Miguel de Cozumel. There are more than 300 restaurants on the island and many hotels, some of which run dive operations, have swimming pools, private docks, and multiple dining facilities.</p>
+    </div>
+    <section>
+        <div class="two-column-layout">
+            <div class="reservation-container">
+                <h3>Reservation Summary</h3>
+                <p>Types of Rentals</p>
+                <ul class="reservation-list">
+                    <li><strong>Honda Motor Scooter</strong></li>
+                    <li>Honda Metropolitan (49cc) - 1 person</li>
+                    <li>Honda Dio (110cc) - 2 person</li>
+                    <li>Honda PCX150(149cc) - 2 person</li>
+                    <li><strong>ATV Side-by-Side</strong></li>
+                    <li>Honda Pioneer 100</li>
+                    <li><strong>Jeep Rentals</strong></li>
+                    <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
+                    <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
+                </ul>
+                <h3>Information and Services</h3>
+                <ul class="reservation-list">
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid drivers license is required in hand at time of rental.</li>
+                    <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is free of charge.</li>
+                    <li>Reservations rate rrequires 24 hour prior notification.</li>
+                    <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                    <li>Rentals may be returned to either location.</li>
+                </ul>
+                <a href="rentals.html">Go to Rentals &#187;</a>
+            </div>
+        </div>
+        <div class="two-column-layout">
+            <div class="weather-conditions-container">
+                <h3>Cozumel Weather Conditions</h3>
+                <ul class="weather-conditions">
+                    <li>Today's Temperature: <span id="current-temp"></span><strong>&#730;F</strong></li>
+                    <li>Currently... <span id="condition"></span></li>
+                    <li>Today's Humidity: <span id="humidity"></span><strong>&#37;</strong></li>
+                </ul>
+            </div>
+            <div class="weather-forecast-container">
+                <h3>Cozumel Weather Forecast</h3>
+                <p id="subtitle"><i>Next 3 days</i></p>
+                <ul class="forecast-list">
+                    <li><p id="today-forecast"></p><span id="forecast-day1"></span><strong>&#730;F</strong></li>
+                    <li><p id="tomorrow-forecast"></p><span id="forecast-day2"></span><strong>&#730;F</strong></li>
+                    <li><p id="third-day"></p><span id="forecast-day3"></span><strong>&#730;F</strong></li>
+                </ul>
+            </div>
+            <div class="social-media-container">
+                <h3>Follow Us on Social Media</h3>
+                <ul class="social-media-list">
+                    <li><a href="" class="fa fa-facebook"></a></li>
+                    <li><a href="" class="fa fa-twitter"></a></li>
+                    <li><a href="" class="fa fa-linkedin"></a></li>
+                    <li><a href="" class="fa fa-youtube"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+            
+    </footer>
+
+    <script src="js/weatherapi.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>

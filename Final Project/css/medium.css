@@ -1,0 +1,48 @@
+@media (min-width: 900px) {
+
+    header div {
+        display: flex;
+    }
+    header {
+        background-color: #186E57;
+        color: white;
+        padding: 10px;
+        box-shadow: 0 4px 10px -2px gray;
+        padding: 0;
+    }
+    nav .nav-list {
+        display: flex;
+        list-style-type: none;
+        text-align: center;
+        font-weight: 700;
+        padding: 0;
+    }
+    .nav-list li{
+        flex: 1;
+        margin: 0;
+    }
+    section {
+        display: flex;
+        margin: 10px;
+    }
+    section div {
+        margin: 20px;
+        flex: 1;
+    }
+    .two-column-layout:nth-of-type(2) {
+        width: 100%;
+    }
+    .about-us-container {
+        text-align: center;
+        width: 75%;
+        margin: 80px auto;
+    }
+    .reservation-list {
+        list-style-type: none;
+        margin-top: 40px;
+    }
+    .reservation-container {
+        width: 100%;
+    }
+
+}
