@@ -143,6 +143,12 @@ section {
     color: white;
     background-color: black;
 }
+table {
+    text-align: center;
+}
+table td {
+    padding: 5px;
+}
 footer {
     height: 200px;
     background-color: #186E57;
