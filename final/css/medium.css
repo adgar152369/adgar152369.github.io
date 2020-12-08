@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@media (min-width: 720px) {
 
     header div {
         display: flex;
@@ -14,10 +14,13 @@
         display: flex;
         list-style-type: none;
         text-align: center;
-        font-weight: 700;
         padding: 0;
     }
+    .nav-list li:first-child {
+        display: none;
+    }
     .nav-list li{
+        flex-wrap: nowrap;
         flex: 1;
         margin: 0;
     }
@@ -37,12 +40,24 @@
         width: 75%;
         margin: 80px auto;
     }
+    .reservation-container {
+        width: 100%;
+    }
+    .information-and-services h2 {
+        text-align: center;
+    }
+    #reservations-form {
+        margin: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
     .reservation-list {
         list-style-type: none;
         margin-top: 40px;
+        text-align: left;
     }
-    .reservation-container {
-        width: 100%;
+    .tours-map {
+        width: 50%;
     }
 
 }

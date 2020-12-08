@@ -6,4 +6,11 @@
     .weather-forecast-container #subtitle {
         text-align: left;
     }
+    #tours-map {
+        position: absolute;
+        right: 0;
+        top: 250px;
+        margin: 20px;
+        width: 50%;
+    }
 }

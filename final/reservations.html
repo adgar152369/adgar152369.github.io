@@ -5,9 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <title>Scoots - Reservations</title>
 </head>
 <body>
-    
+    <header>
+        <div>
+            <h1 class="headers">Scoots</h1>
+            <img src="" alt="scoots logo">
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li style="background-color: black; color: white;"><a href="reservations.html">Reservations</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="information-and-services">
+        <h2>Information and Services</h2>
+        <ul class="reservation-list">
+            <li>A $50 security deposit is required to confirm reservations.</li>
+            <li>A valid drivers license is required in hand at time of rental.</li>
+            <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+            <li>Fuel charge not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is free of charge.</li>
+            <li>Reservations rate rrequires 24 hour prior notification.</li>
+            <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+            <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+            <li>Rentals may be returned to either location.</li>
+        </ul>
+    </div>
+    <h2>Reservation Form</h2><span><p>Reserve your Rental</p></span>
+    <form id="reservations-form" method="GET" action="confirmation.html">
+        <div>
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname" required>
+        </div>
+        <div>
+            <label for="lastnamne">Last Name: </label>
+            <input type="text" id="lastname" required>
+        </div>
+        <div>
+            <label for="date">Today's Date: </label>
+            <input type="date" required>
+        </div>
+        <div>
+            <label for="phonenumber">Phone Number: </label>
+            <input type="text" placeholder="(000) 000 - 000" required>
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" required>
+        </div>
+
+        <div>
+            <label for="country">Country: </label>
+            <select name="country" id="country" required>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+            </select>
+        </div>
+        <div>
+            <label for="state">State: </label>
+            <input type="text" placeholder="Idaho" required>
+        </div>
+
+        <div>
+            <label for="cruiseline">Select Cruiseline: </label>
+            <select name="cruiseline" id="cruiseline" required>
+                <option value="">Select Cruiseline</option>
+                <option value="Royal Carribean International">Royal Carribean International</option>
+                <option value="Norwegian Cruise Line">Norwegian Cruise Line</option>
+                <option value="Celebrity Cruises">Celebrity Cruises</option>
+         </select>
+        </div>
+
+        <div>
+            <label for="rentaltype">Rental Type: </label>
+            <select id="rentaltype" required>
+                <option value="">Please choose an option</option>
+                <option value="dog">Honda Metro Scooter</option>
+                <option value="cat">Honda Dio Scooter</option>
+                <option value="hamster">Honda PCX150 Scooter</option>
+                <option value="parrot">Honda Pioneer ATV</option>
+                <option value="spider">Jeep Wrangler 4D</option>
+                <option value="goldfish">Jeep Wrangler 2D</option>
+            </select>
+        </div>
+        <div id="additional">
+            <label for="accomodations"><h3>Additional accomodations or comments: </h3></label>
+            <textarea name="accomodations" id="accomodations" cols="30" rows="10" placeholder="Additional comments or accomodations"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
 </body>
 </html>
