@@ -56,8 +56,12 @@
         margin-top: 40px;
         text-align: left;
     }
-    .tours-map {
-        width: 50%;
+    .tours-html main {
+        width: 90%;
+        margin: auto;
+    }
+    .tours-images {
+        width: 500px;
     }
 
 }

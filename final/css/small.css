@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    line-height: 30px;
+    line-height: 35px;
     margin: 0;
 }
 header div {
@@ -196,21 +196,27 @@ body h2 {
     text-align: center;
     margin-top: 40px;
 }
+
+
 .tours-html h2, h1 {
     text-align: center;
     margin-top: 40px;
 }
 .tours-html main {
-    margin: 20px;
+    margin: auto;
+    width: 90%
 }
 .tours-html p {
     text-align: left;
-    width: 45%;
 }
 #tours-map {
     margin: auto;
     width: 100%;
 }
+.tours-images {
+    width: 100%;
+}
+
 
 footer {
     height: 200px;

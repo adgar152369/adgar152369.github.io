@@ -6,11 +6,24 @@
     .weather-forecast-container #subtitle {
         text-align: left;
     }
-    #tours-map {
-        position: absolute;
-        right: 0;
-        top: 250px;
+    .tours-html main {
         margin: 20px;
-        width: 50%;
     }
+    .tours-suggestions-containers {
+        display: flex;
+    }
+    .tours-suggestions {
+        margin-bottom: 160px;
+    }
+    .tours-suggestions p {
+        width: 110%;
+    }
+    .tours-suggestions-containers div {
+        flex: 1;
+    }
+    .tours-images {
+        margin-left: 150px;
+        margin-right: 0;
+    }
+
 }
