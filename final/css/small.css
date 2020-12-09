@@ -38,6 +38,7 @@ nav .nav-list {
 .nav-list li{
     transition: all .25s;
     padding: 10px;
+    display: none;
 }
 .nav-list li:hover {
     background-color: black;
@@ -215,6 +216,9 @@ body h2 {
 }
 .tours-images {
     width: 100%;
+}
+.responsive li {
+	display: block;
 }
 
 

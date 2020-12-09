@@ -21,6 +21,7 @@
     }
     .nav-list li{
         flex-wrap: nowrap;
+        display: block;
         flex: 1;
         margin: 0;
     }
