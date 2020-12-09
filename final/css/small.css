@@ -26,6 +26,12 @@ nav ul {
 .nav-list li:first-child {
     display: block;
 }
+.nav-list a {
+    transition: all .25s;
+}
+.nav-list a:hover {
+    color: black;
+}
 nav .nav-list {
     font-weight: 700;
 
@@ -39,9 +45,6 @@ nav .nav-list {
     transition: all .25s;
     padding: 10px;
     display: none;
-}
-.nav-list li:hover {
-    background-color: black;
 }
 section {
     display: block;
@@ -159,15 +162,15 @@ section {
 }
 table {
     text-align: center;
-    margin: 20px;
     border-collapse: collapse;
+    margin: 20px;
     box-shadow: 0px 6px 32px -8px rgba(191,185,191,1);
 }
 thead td {
     background-color: #F0E9BE;
 }
 table td {
-    padding: 10px;
+    padding: 5px;
     border: solid 1px grey;
 }
 table .reservation-type {
