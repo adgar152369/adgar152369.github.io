@@ -25,5 +25,11 @@
         margin-left: 150px;
         margin-right: 0;
     }
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #reservations-form {
+        width: 50%;
+    }
 
 }

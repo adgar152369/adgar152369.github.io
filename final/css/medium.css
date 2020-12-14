@@ -2,6 +2,7 @@
 
     header div {
         display: flex;
+        justify-content: left;
     }
     header {
         background-color: #186E57;
@@ -51,11 +52,6 @@
     .information-and-services h2 {
         text-align: center;
     }
-    #reservations-form {
-        margin: 40px;
-        display: flex;
-        flex-wrap: wrap;
-    }
     .reservation-list {
         list-style-type: none;
         margin-top: 40px;
@@ -74,6 +70,46 @@
     }
     table {
         margin: 40px auto;
+        font-size: initial;
     }
-
+    header img {
+        height: 100px;
+        margin-left: 20px;
+    }
+    header h1 {
+        display: block;
+    }
+    header div {
+        display: flex;
+        padding: 15px;
+    }
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        text-align: center;
+    }
+    .photo-grid img {
+        width: 300px;
+        height: 300px;
+        margin: 40px 40px;
+    }
+    #reservations-form {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    footer ul {
+        display: flex;
+    }
+    .footer-nav img {
+        display: block;
+        width: 50px;
+    }
+    .footer-nav li {
+        flex: 1;
+    }
+    footer {
+        height: 150px;
+    }
 }

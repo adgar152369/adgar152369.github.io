@@ -24,9 +24,4 @@ fetch(apiURL)
       document.getElementById('forecast-day1').textContent = Math.round(forecastData[0].main.temp);
       document.getElementById('forecast-day2').textContent = Math.round(forecastData[1].main.temp);
       document.getElementById('forecast-day3').textContent = Math.round(forecastData[2].main.temp);
-
-      document.getElementById('forecast-img1').src = "https://openweathermap.org/img/w/" + forecastData[0].weather[0].icon + ".png";
-      document.getElementById('forecast-img2').src = "https://openweathermap.org/img/w/" + forecastData[1].weather[0].icon + ".png";
-      document.getElementById('forecast-img3').src = "https://openweathermap.org/img/w/" + forecastData[2].weather[0].icon + ".png";
-
     });

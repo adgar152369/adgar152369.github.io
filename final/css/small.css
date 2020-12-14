@@ -6,12 +6,17 @@ body {
 header div {
     display: flex;
     padding: 15px;
+    justify-content: center;
 }
 header {
     background-color: #186E57;
     color: white;
     padding-bottom: 0;
     box-shadow: 0 4px 10px -2px gray;
+}
+header img {
+    height: 100px;
+    margin-left: 20px;
 }
 nav ul {
     margin-bottom: 0;
@@ -25,6 +30,7 @@ nav ul {
 }
 .nav-list li:first-child {
     display: block;
+    font-size: 30px;
 }
 .nav-list a {
     transition: all .25s;
@@ -88,15 +94,17 @@ section {
     padding-bottom: 10px;
 }
 .weather-conditions-container {
-    background-color: #C2D8A3;
+    background-image: url(https://rovology.com/wp-content/uploads/2020/02/cozumel.jpg);
     padding: 15px;
     margin: 20px;
 }
 .weather-conditions-container span {
     font-weight: 600;
+    color: black;
 }
 .weather-conditions-container ul {
     list-style-type: none;
+    font-weight: 700;
 }
 .weather-conditions-container h3 {
     border-bottom: 1px solid black;
@@ -106,9 +114,10 @@ section {
     margin: auto;
 }
 .weather-forecast-container {
-    background-color: #F0E9BE;
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f2/bb/caption.jpg?w=1000&h=600&s=1);
     padding: 15px;
     margin: 20px;
+    color: black;
 }
 .weather-forecast-container h3 {
     text-align: center;
@@ -165,6 +174,7 @@ table {
     border-collapse: collapse;
     margin: 20px;
     box-shadow: 0px 6px 32px -8px rgba(191,185,191,1);
+    font-size: 12px;
 }
 thead td {
     background-color: #F0E9BE;
@@ -178,10 +188,21 @@ table .reservation-type {
 }
 #reservations-form {
     margin: 40px;
-    display: block;
+}
+#reservations-form legend {
+    text-align: left;
+}
+#reservations-form fieldset {
+    font-weight: 700;
+    background-color: #F0E9BE;
+}
+#reservations-form div {
+    padding: 10px;
 }
 #reservations-form label {
     padding: 10px;
+    display: block;
+    font-weight: 700;
 }
 #reservations-form input {
     margin: 10px;
@@ -214,8 +235,8 @@ body h2 {
     text-align: left;
 }
 #tours-map {
-    margin: auto;
-    width: 100%;
+    margin: 20px;
+    width: 80%;
 }
 .tours-images {
     width: 100%;
@@ -223,12 +244,55 @@ body h2 {
 .responsive li {
 	display: block;
 }
-
-
+.photo-grid div:hover {
+    box-shadow: 3px 7px 45px -6px lightgray;
+}
+.photo-grid div {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.photo-grid {
+    display: block;
+}
+.photo-grid img {
+    width: 300px;
+}
+#contact-us-form input{
+    display: block;
+}
+#contact-us-form {
+    margin: 40px;
+}
+.footer-logo {
+    width: 50px;
+    margin: 10px;
+}
+.footer-logo img {
+    width: 50px;
+}
+footer h1 {
+    text-align: left;
+}
+footer ul {
+    list-style-type: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.footer-nav a {
+    color: white;
+}
+.footer-nav img {
+    display: none;
+}
+.footer-nav a:active {
+    color: black;
+}
 footer {
-    height: 200px;
     background-color: #186E57;
     color: white;
     box-shadow: 0 -3px 10px gray;
     margin-top: 40px;
+    height: 200px;
 }

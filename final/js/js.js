@@ -12,12 +12,12 @@ let daysArray = [
 ];
 
 //get next three days forecast
-var nextDay = daysArray[date.getDay() + 1];
-var tomorrow = daysArray[date.getDay() + 2];
-var dayAfterTomorrow = daysArray[date.getDay() + 3];
+var today = daysArray[date.getDay()];
+var tomorrow = daysArray[date.getDay() + 1];
+var dayAfterTomorrow = daysArray[date.getDay() + 2];
 
 //display next three days forecast
-document.getElementById('today-forecast').textContent = nextDay;
+document.getElementById('today-forecast').textContent = today;
 document.getElementById('tomorrow-forecast').textContent = tomorrow;
 document.getElementById('third-day').textContent = dayAfterTomorrow;
 
@@ -25,3 +25,5 @@ document.getElementById('third-day').textContent = dayAfterTomorrow;
 function toggleMenu(){
     document.getElementsByClassName('nav-list')[0].classList.toggle('responsive');
   }
+
+
