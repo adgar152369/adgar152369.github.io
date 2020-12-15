@@ -186,8 +186,11 @@ table td {
 table .reservation-type {
     background-color: #C2D8A3;
 }
-#reservations-form {
-    margin: 40px;
+form #reservations-form {
+    margin: 0;
+}
+form #additional {
+    width: 90px;
 }
 #reservations-form legend {
     text-align: left;
@@ -196,17 +199,12 @@ table .reservation-type {
     font-weight: 700;
     background-color: #F0E9BE;
 }
-#reservations-form div {
-    padding: 10px;
-}
 #reservations-form label {
     padding: 10px;
     display: block;
     font-weight: 700;
 }
-#reservations-form input {
-    margin: 10px;
-}
+
 
 /* reservations html */
 
@@ -256,7 +254,7 @@ body h2 {
     display: block;
 }
 .photo-grid img {
-    width: 300px;
+    width: 250px;
 }
 #contact-us-form input{
     display: block;
@@ -288,6 +286,10 @@ footer ul {
 }
 .footer-nav a:active {
     color: black;
+}
+.thank-you {
+    width: 50%;
+    margin: auto;
 }
 footer {
     background-color: #186E57;
