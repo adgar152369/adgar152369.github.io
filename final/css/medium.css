@@ -109,6 +109,9 @@
     .footer-nav li {
         flex: 1;
     }
+    .scoots-contact-container {
+        width: 100%;
+    }
     footer {
         height: 150px;
     }
