@@ -233,8 +233,8 @@ body h2 {
     text-align: left;
 }
 #tours-map {
-    margin: 20px;
-    width: 80%;
+    margin-top: 40px;
+    width: 100%;
 }
 .tours-images {
     width: 100%;
@@ -246,6 +246,7 @@ body h2 {
     box-shadow: 3px 7px 45px -6px lightgray;
 }
 .photo-grid div {
+    transition: all .25s;
     text-align: center;
     padding: 10px;
     margin: 20px;
@@ -291,6 +292,18 @@ footer ul {
     width: 50%;
     margin: auto;
 }
+#contact-us-header {
+    border-bottom: solid lightgray 1px;
+    width: 50%;
+    margin: auto;
+}
+.scoots-info-container h3{
+    text-align: center;
+}
+footer #modified {
+    color: yellow;
+}
+
 footer {
     background-color: #186E57;
     color: white;

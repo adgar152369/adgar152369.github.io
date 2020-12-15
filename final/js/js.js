@@ -11,6 +11,20 @@ let daysArray = [
     'Saturday'
 ];
 
+let months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+]
 //get next three days forecast
 var today = daysArray[date.getDay()];
 var tomorrow = daysArray[date.getDay() + 1];
@@ -25,5 +39,4 @@ document.getElementById('third-day').textContent = dayAfterTomorrow;
 function toggleMenu(){
     document.getElementsByClassName('nav-list')[0].classList.toggle('responsive');
   }
-
 
