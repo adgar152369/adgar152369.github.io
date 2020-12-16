@@ -78,6 +78,10 @@ section {
 .reservation-container a {
     color: white;
     text-decoration: none;
+    transition: all .25s;
+}
+.reservation-container a:hover {
+    color: black;
 }
 .reservation-list {
     list-style-type: square;
@@ -314,6 +318,9 @@ footer ul {
     padding-bottom: 10px;
 }
 .scoots-info-container h3{
+    text-align: center;
+}
+.home-scoots-info h2 {
     text-align: center;
 }
 footer #modified {
